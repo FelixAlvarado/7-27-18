@@ -10,3 +10,11 @@ What data structure is used to assist with a topological sort algorithm?
 
 A directed acyclic graph 
 
+Explain TCP and why is it necessary? 
+
+Transimission control protocol 
+
+TCP checks to see that all necessary peices of information have arrived at the needed loation.
+Dtermines that something has all the needed data before running it. 
+If not, it sends out a request for data again. 
+Ensures good quality when using data. 
