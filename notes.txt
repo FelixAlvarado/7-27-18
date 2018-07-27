@@ -32,3 +32,6 @@ What is the syntax for an IIFE?
 
 (Function definition)(function declaration)
 
+Why make AJAX call in component did mount?
+
+To load data into your componenent
