@@ -1,0 +1,12 @@
+what types of graphs can we do a topological sort?
+
+A directed acylic graph 
+
+Difference btween topological sort and DFS? 
+
+DFS prints vertex and moves on to the next child. Top sort also considers other vertices that don't have incomming edges. Those vertices should come before vetices with incoming edges.
+
+What data structure is used to assist with a topological sort algorithm?
+
+A directed acyclic graph 
+
