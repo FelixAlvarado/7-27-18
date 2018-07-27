@@ -18,3 +18,17 @@ TCP checks to see that all necessary peices of information have arrived at the n
 Dtermines that something has all the needed data before running it. 
 If not, it sends out a request for data again. 
 Ensures good quality when using data. 
+
+When is using IIFE necessary?
+
+Immediately Invoked Fnction Express 
+
+When you want to:
+attach private data to a function 
+create fresh enviroments 
+avoid polluting global namespace 
+
+What is the syntax for an IIFE?
+
+(Function definition)(function declaration)
+
