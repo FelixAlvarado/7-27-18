@@ -50,3 +50,20 @@ The following is repeated/modified depending on source vertex:
 3. explore all neighbors and modify distance/ add edge 
 if a new distance is smaller, replace that and new edge 
 Repeat until heap is empy
+
+what are the benefits of UDP over TCP? What are the shortcomings?
+
+Benefits: 
+small packet sizes 
+no connection to create and maintain 
+more control over when data is sent 
+
+Bad Things: 
+deosn't rectify errors 
+will cram a bynch of data when a lot is taken in 
+doesn't gaurantee in order delivery 
+no deliver acknowledgemnts 
+
+what is a datagram?
+A basic transfer unit assoiated with a packet-switched network (method of grouping data when transferred over digital newwork)
+
