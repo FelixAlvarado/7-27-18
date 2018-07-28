@@ -71,3 +71,10 @@ what is the risk we fac ewhen using == vs ===?
 
 == compares equality with coercion which turns the compared elements to a convenient type, which could yeild unexpected results. 
 
+How odes use strict affect the value of this?
+
+The will be undefined (provided it is not in an object). this.name would result in an error.
+
+Without use strict, what is the value of this inside a name or anonymous function? 
+
+It will be the global object (like the window in a browser)
