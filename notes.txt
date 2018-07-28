@@ -67,3 +67,7 @@ no deliver acknowledgemnts
 what is a datagram?
 A basic transfer unit assoiated with a packet-switched network (method of grouping data when transferred over digital newwork)
 
+what is the risk we fac ewhen using == vs ===? 
+
+== compares equality with coercion which turns the compared elements to a convenient type, which could yeild unexpected results. 
+
