@@ -35,3 +35,18 @@ What is the syntax for an IIFE?
 Why make AJAX call in component did mount?
 
 To load data into your componenent
+
+what is the time complexity of dijkstra's algorithm?
+
+O(Elog(V))
+
+Explain steps of Dijkstra shortest-path algorithm
+
+Will have 3 set: paths, distance from start, heap 
+1. Heap will have all vertices with distance initiated at infinity and source vertex initiated at 0. 
+
+The following is repeated/modified depending on source vertex: 
+2. extract min distance from heap and put in distance set 
+3. explore all neighbors and modify distance/ add edge 
+if a new distance is smaller, replace that and new edge 
+Repeat until heap is empy
